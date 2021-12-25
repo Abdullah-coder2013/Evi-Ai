@@ -1,0 +1,163 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module pycmd_public</title>
+<meta charset="utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>pycmd_public</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:///C:/users/horea/pycmd/pycmd_public.py">c:\users\horea\pycmd\pycmd_public.py</a></font></td></tr></table>
+    <p><tt>Public&nbsp;constants,&nbsp;objects&nbsp;and&nbsp;utilities&nbsp;exported&nbsp;by&nbsp;PyCmd.<br>
+&nbsp;<br>
+These&nbsp;are&nbsp;meant&nbsp;to&nbsp;be&nbsp;used&nbsp;in&nbsp;init.py&nbsp;files;&nbsp;users&nbsp;can&nbsp;rely&nbsp;on&nbsp;them&nbsp;being&nbsp;kept<br>
+unchanged&nbsp;(interface-wise)&nbsp;throughout&nbsp;later&nbsp;versions.</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="common.html">common</a><br>
+</td><td width="25%" valign=top><a href="console.html">console</a><br>
+</td><td width="25%" valign=top><a href="os.html">os</a><br>
+</td><td width="25%" valign=top><a href="sys.html">sys</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="__builtin__.html#object">__builtin__.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="pycmd_public.html#color">color</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="pycmd_public.html#_Settings">_Settings</a>(<a href="__builtin__.html#object">__builtin__.object</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="pycmd_public.html#Behavior">Behavior</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Behavior">class <strong>Behavior</strong></a>(<a href="pycmd_public.html#_Settings">_Settings</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Behavior">Behavior</a>&nbsp;settings<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="pycmd_public.html#Behavior">Behavior</a></dd>
+<dd><a href="pycmd_public.html#_Settings">_Settings</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="Behavior-__init__"><strong>__init__</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Behavior-sanitize"><strong>sanitize</strong></a>(self)</dt></dl>
+
+<hr>
+Data descriptors inherited from <a href="pycmd_public.html#_Settings">_Settings</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="color">class <strong>color</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Constants&nbsp;for&nbsp;<a href="#color">color</a>&nbsp;manipulation&nbsp;within&nbsp;PyCmd.<br>
+&nbsp;<br>
+These&nbsp;constants&nbsp;are&nbsp;similar&nbsp;to&nbsp;ANSI&nbsp;escape&nbsp;sequences,&nbsp;only&nbsp;more&nbsp;powerful&nbsp;in<br>
+the&nbsp;sense&nbsp;that&nbsp;they&nbsp;support&nbsp;setting,&nbsp;resetting&nbsp;and&nbsp;toggling&nbsp;of&nbsp;individual&nbsp;R,<br>
+G,&nbsp;B&nbsp;components<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Static methods defined here:<br>
+<dl><dt><a name="color-update"><strong>update</strong></a>()</dt><dd><tt>Update&nbsp;the&nbsp;current&nbsp;values&nbsp;of&nbsp;the&nbsp;DEFAULT&nbsp;<a href="#color">color</a>&nbsp;constant&nbsp;--&nbsp;we&nbsp;have<br>
+to&nbsp;adapt&nbsp;these&nbsp;since&nbsp;they&nbsp;might&nbsp;change&nbsp;(e.g.&nbsp;with&nbsp;the&nbsp;"<a href="#color">color</a>"<br>
+command).</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>Back</strong> = &lt;class 'pycmd_public.Back'&gt;<dd><tt>Color&nbsp;constants&nbsp;for&nbsp;the&nbsp;background</tt></dl>
+
+<dl><dt><strong>Fore</strong> = &lt;class 'pycmd_public.Fore'&gt;<dd><tt>Color&nbsp;constants&nbsp;for&nbsp;the&nbsp;foreground</tt></dl>
+
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-abbrev_path"><strong>abbrev_path</strong></a>(path<font color="#909090">=None</font>)</dt><dd><tt>Abbreviate&nbsp;a&nbsp;full&nbsp;path&nbsp;(or&nbsp;the&nbsp;current&nbsp;path,&nbsp;if&nbsp;None&nbsp;is&nbsp;provided)&nbsp;to&nbsp;make<br>
+it&nbsp;shorter,&nbsp;yet&nbsp;still&nbsp;unambiguous.<br>
+&nbsp;<br>
+This&nbsp;function&nbsp;takes&nbsp;a&nbsp;directory&nbsp;path&nbsp;and&nbsp;tries&nbsp;to&nbsp;abbreviate&nbsp;it&nbsp;as&nbsp;much&nbsp;as<br>
+possible&nbsp;while&nbsp;making&nbsp;sure&nbsp;that&nbsp;the&nbsp;resulting&nbsp;shortened&nbsp;path&nbsp;is&nbsp;not<br>
+ambiguous:&nbsp;a&nbsp;path&nbsp;element&nbsp;is&nbsp;only&nbsp;abbreviated&nbsp;if&nbsp;its&nbsp;shortened&nbsp;form&nbsp;is<br>
+unique&nbsp;in&nbsp;its&nbsp;directory&nbsp;(in&nbsp;other&nbsp;words,&nbsp;if&nbsp;a&nbsp;sybling&nbsp;would&nbsp;have&nbsp;the&nbsp;same<br>
+abbreviation,&nbsp;the&nbsp;original&nbsp;name&nbsp;is&nbsp;kept).<br>
+&nbsp;<br>
+The&nbsp;abbreviation&nbsp;is&nbsp;performed&nbsp;by&nbsp;keeping&nbsp;only&nbsp;the&nbsp;first&nbsp;letter&nbsp;of&nbsp;each<br>
+"word"&nbsp;composing&nbsp;a&nbsp;path&nbsp;element.&nbsp;"Words"&nbsp;are&nbsp;defined&nbsp;by&nbsp;CamelCase,<br>
+underscore_separation&nbsp;or&nbsp;"whitespace&nbsp;separation".</tt></dd></dl>
+ <dl><dt><a name="-find_updir"><strong>find_updir</strong></a>(name, path<font color="#909090">=None</font>)</dt><dd><tt>Look&nbsp;for&nbsp;a&nbsp;file/directory&nbsp;named&nbsp;"name"&nbsp;in&nbsp;a&nbsp;given&nbsp;directory&nbsp;and&nbsp;all&nbsp;the<br>
+ancestor&nbsp;directories.&nbsp;<br>
+If&nbsp;no&nbsp;starting&nbsp;directory&nbsp;is&nbsp;provided,&nbsp;the&nbsp;CWD&nbsp;is&nbsp;assumed.</tt></dd></dl>
+ <dl><dt><a name="-git_prompt"><strong>git_prompt</strong></a>()</dt><dd><tt>Custom&nbsp;prompt&nbsp;for&nbsp;git&nbsp;repositories.<br>
+&nbsp;<br>
+This&nbsp;prompt&nbsp;displays:<br>
+&nbsp;&nbsp;*&nbsp;the&nbsp;name&nbsp;of&nbsp;the&nbsp;current&nbsp;git&nbsp;branch<br>
+&nbsp;&nbsp;*&nbsp;"dirty"&nbsp;indicator&nbsp;<br>
+&nbsp;&nbsp;*&nbsp;count&nbsp;of&nbsp;unpushed/unpulled&nbsp;commits<br>
+in&nbsp;addition&nbsp;to&nbsp;the&nbsp;typical&nbsp;"abbreviated&nbsp;current&nbsp;path"&nbsp;PyCmd&nbsp;prompt.<br>
+&nbsp;<br>
+Requires&nbsp;git&nbsp;to&nbsp;be&nbsp;present&nbsp;in&nbsp;the&nbsp;PATH.</tt></dd></dl>
+ <dl><dt><a name="-simple_prompt"><strong>simple_prompt</strong></a>()</dt><dd><tt>Return&nbsp;a&nbsp;prompt&nbsp;containg&nbsp;the&nbsp;current&nbsp;path&nbsp;(abbreviated)<br>
+&nbsp;<br>
+This&nbsp;is&nbsp;the&nbsp;default&nbsp;PyCmd&nbsp;prompt.&nbsp;It&nbsp;uses&nbsp;the&nbsp;<a href="#-abbrev_path">abbrev_path</a>()&nbsp;function&nbsp;to<br>
+obtain&nbsp;the&nbsp;shortened&nbsp;path&nbsp;and&nbsp;appends&nbsp;the&nbsp;typical&nbsp;'&gt;&nbsp;'.</tt></dd></dl>
+ <dl><dt><a name="-svn_prompt"><strong>svn_prompt</strong></a>()</dt><dd><tt>Custom&nbsp;prompt&nbsp;function&nbsp;for&nbsp;a&nbsp;SVN&nbsp;repository<br>
+&nbsp;<br>
+This&nbsp;prompt&nbsp;displays&nbsp;a&nbsp;dirty&nbsp;indicator&nbsp;if&nbsp;the&nbsp;current&nbsp;directory&nbsp;is&nbsp;under&nbsp;SVN<br>
+control&nbsp;and&nbsp;the&nbsp;working&nbsp;copy&nbsp;is&nbsp;dirty.<br>
+&nbsp;<br>
+Requires&nbsp;svn&nbsp;to&nbsp;be&nbsp;present&nbsp;in&nbsp;the&nbsp;PATH.</tt></dd></dl>
+ <dl><dt><a name="-universal_prompt"><strong>universal_prompt</strong></a>()</dt><dd><tt>Universal&nbsp;prompt&nbsp;function<br>
+&nbsp;<br>
+This&nbsp;function&nbsp;selects&nbsp;the&nbsp;appropriate&nbsp;prompt&nbsp;sub-function&nbsp;(simple&nbsp;prompt,<br>
+git&nbsp;prompt,&nbsp;svn&nbsp;prompt)&nbsp;based&nbsp;on&nbsp;the&nbsp;current&nbsp;directory.</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>appearance</strong> = &lt;pycmd_public._Appearance object&gt;<br>
+<strong>behavior</strong> = &lt;pycmd_public.Behavior object&gt;</td></tr></table>
+</body></html>
