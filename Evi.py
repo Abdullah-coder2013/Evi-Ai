@@ -22,13 +22,13 @@ def speak(audio):
 def wishMe():
     hour = int(datetime.datetime.now().hour)
     if hour>=0 and hour<12:
-        speak("Good Morning Abdullah!")
+        speak("Good Morning!")
 
     elif hour>=12 and hour<16:
-        speak("Good Afternoon Abdullah!")   
+        speak("Good Afternoon!")   
 
     else:
-        speak("Good Evening Abdullah!")  
+        speak("Good Evening!")  
 
 
     speak("How may I help you?")
@@ -72,6 +72,7 @@ if __name__ == "__main__":
             
         elif 'what is' in query or 'who is' in query or 'where is' in query or 'why is' in query or 'how is' in query or 'what can' in query or 'who can' in query or 'where can' in query:
             question = query
+            #This is my appid and it is not secure that you should use it, instead you should go to https://www.wolframalpha.com/ and sign up or sign in to get the appid.
             app_id="EQV68E-JQ7VX6VKQK"
             client = wolframalpha.Client('R2K75H-7ELALHR35X')
             res = client.query(question)
@@ -120,5 +121,5 @@ the time, answer your questions and predict the weather.
 
         elif 'close' in query:
             speak("Starting the AI Shutdown Process!")
-            speak("Fairwell Abdullah!")
+            speak("Fairwell!")
             break
