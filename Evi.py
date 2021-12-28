@@ -107,7 +107,7 @@ I may not be considered to be like Alexa, Siri or Cortana.
 But I can do something that will make you happy.
                   """)
         
-        elif 'what can you do' in query:
+        elif 'what are you good at?' in query:
             print("""
 I can do anything by one voice command.
 For example I can open any website,
